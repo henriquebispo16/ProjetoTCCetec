@@ -10,11 +10,55 @@ body{
     color: white;
 }
 
+.header{
+    width: 100%;
+    padding: 25px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    backdrop-filter: blur(10px);
+    background: rgba(15, 23, 42, 0.8);
+}
+
 .logo{
     text-decoration: none;
     color: #8b5cf6;
     font-size: 28px;
     font-weight: bold;
+}
+
+nav a:hover{
+    color: #8b5cf6;
+}
+
+.login-btn{
+    background: #8b5cf6;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta-buttons{
+    margin-top: 40px;
+    text-align: center;
+    gap: 20px;
+}
+
+.primary-btn{
+    background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+    border: none;
+    color: white;
+    padding: 15px 28px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
 .benefits{
@@ -35,6 +79,7 @@ body{
     width: 320px;
     border-radius: 20px;
     transition: 0.3s;
+    
 }
 
 .benefits h2{
@@ -118,19 +163,40 @@ body{
     transform: scale(1.05);
 }
 
-/* ANIMAÇÃO */
 
-@keyframes float{
-    0%{
-        transform: translateY(0px);
-    }
 
-    50%{
-        transform: translateY(-20px);
-    }
 
-    100%{
-        transform: translateY(0px);
-    }
+
+h2 {
+ text-align: center;
 }
 
+#step1, #step2, #step3 {
+ text-align: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #8b5cf6;
+}
+
+.login-btn{
+    background: #8b5cf6;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
