@@ -33,7 +33,7 @@
           />
 
           <input
-            type="email"
+            type="text"
             placeholder="Email"
             required
             pattern=".+\.$"
@@ -44,7 +44,7 @@
             placeholder="Senha"
             required
             pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&]).{8,}$"
-            title="Email ou senha incorreta. A senha deve ter no mínimo 12 caracteres, incluindo letra, número e caractere especial."
+            title="Email ou senha incorreta. A senha deve ter no mínimo 8 caracteres, incluindo letra, número e caractere especial."
           />
 
           <input type="password" placeholder="Confirmar Senha" required />
@@ -79,12 +79,12 @@
             placeholder="Senha"
             required
             pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&]).{8,}$"
-            title="A senha deve ter no mínimo 12 caracteres, incluindo letra, número e caractere especial."
+            title="A senha deve ter no mínimo 8 caracteres, incluindo letra, número e caractere especial."
           />
 
-          <a href="#">Esqueceu sua senha?</a>
+          <a href="TelaEsqueciSenha/Senha.html">Esqueceu sua senha?</a>
 
-          <button type="submit">Entrar</button>
+          <button type="submit" onclick="irParaP()">Entrar</button>
         </form>
       </div>
 
