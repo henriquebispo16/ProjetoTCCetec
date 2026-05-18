@@ -12,9 +12,31 @@
     <link rel="stylesheet" href="style.css" />
 
     <title>First Step Dev</title>
+
+    <style>
+      .header {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        z-index: 1000;
+      }
+
+      .header nav a {
+        text-decoration: none;
+        color: rgb(148, 51, 240);
+        font-size: 30px;
+        font-weight: bold;
+      }
+    </style>
   </head>
 
   <body>
+    <header class="header">
+      <nav>
+        <a href="TelaMenu/Menu.html">Início</a>
+      </nav>
+    </header>
+
     <div class="container" id="container">
       <!-- Cadastro -->
       <div class="form-container sign-up">
@@ -23,11 +45,10 @@
 
           <span>Use seu email para se cadastrar</span>
 
-          <!-- A ALTERAÇÃO SOLICITADA: Exige nome, espaço e sobrenome -->
-          <input 
-            type="text" 
-            placeholder="Nome Completo" 
-            required 
+          <input
+            type="text"
+            placeholder="Nome Completo"
+            required
             pattern="^[A-Za-zÀ-ÿ]+(\s+[A-Za-zÀ-ÿ]+)+$"
             title="Por favor, insira seu nome e pelo menos um sobrenome."
           />
@@ -39,6 +60,7 @@
             pattern=".+\.$"
             title="O email deve terminar com .com"
           />
+
           <input
             type="password"
             placeholder="Senha"

@@ -179,3 +179,19 @@ button.hidden{
 .container.active .toggle-right{
     transform: translateX(200%);
 }
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #8b5cf6;
+}
