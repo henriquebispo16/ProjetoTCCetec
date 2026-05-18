@@ -309,3 +309,15 @@ body{
 .painel-professor button:hover{
     background: #7c3aed;
 }
+
+.exit{
+    margin-top: 20px;
+    color: white
+}
+
+.exit a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
