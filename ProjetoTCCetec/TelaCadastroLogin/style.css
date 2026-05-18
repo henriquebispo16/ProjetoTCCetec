@@ -195,3 +195,13 @@ nav a{
 nav a:hover{
     color: #8b5cf6;
 }
+
+.selection{
+    background: #eac7ff;
+    border: none;
+    margin: 8px 0;
+    padding: 12px 15px;
+    width: 100%;
+    border-radius: 8px;
+    outline: none;
+}
